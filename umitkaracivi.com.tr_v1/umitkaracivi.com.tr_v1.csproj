@@ -1,0 +1,352 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{70EA8523-71DE-48FD-BC90-260CAF3E0392}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>umitkaracivi.com.tr_v1</RootNamespace>
+    <AssemblyName>umitkaracivi.com.tr_v1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44331</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\default.css" />
+    <Content Include="css\font-awesome\css\font-awesome.css" />
+    <Content Include="css\font-awesome\css\font-awesome.min.css" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="css\fontello\css\animation.css" />
+    <Content Include="css\fontello\css\fontello-codes.css" />
+    <Content Include="css\fontello\css\fontello-embedded.css" />
+    <Content Include="css\fontello\css\fontello-ie7-codes.css" />
+    <Content Include="css\fontello\css\fontello-ie7.css" />
+    <Content Include="css\fontello\css\fontello.css" />
+    <Content Include="css\fontello\font\fontello.svg" />
+    <Content Include="css\fonts.css" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-bold-webfont.svg" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-italic-webfont.svg" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-regular-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-Bold-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-BoldItalic-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBold-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBoldItalic-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-Italic-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-Light-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-LightItalic-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-Regular-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-Semibold-webfont.svg" />
+    <Content Include="css\fonts\opensans\OpenSans-SemiboldItalic-webfont.svg" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\media-queries.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="docs\UKCV_ENG_v2.058.jpg" />
+    <Content Include="docs\UKCV_TRK_v2.058.jpg" />
+    <Content Include="favicon.png" />
+    <Content Include="Global.asax" />
+    <Content Include="images\Feather_Kucuk.png" />
+    <Content Include="images\goal\GoalO1.jpg" />
+    <Content Include="images\goal\GoalO2.jpg" />
+    <Content Include="images\goal\GoalO3.jpg" />
+    <Content Include="images\goal\GoalO4.jpg" />
+    <Content Include="images\goal\GoalO5.jpg" />
+    <Content Include="images\goal\GoalO6.png" />
+    <Content Include="images\goal\GoalO7.jpg" />
+    <Content Include="images\goal\GoalO8.jpg" />
+    <Content Include="images\goal\GoalP1.jpg" />
+    <Content Include="images\goal\GoalP10.JPG" />
+    <Content Include="images\goal\GoalP11.jpg" />
+    <Content Include="images\goal\GoalP12.jpg" />
+    <Content Include="images\goal\GoalP2.jpg" />
+    <Content Include="images\goal\GoalP3.jpg" />
+    <Content Include="images\goal\GoalP4.jpg" />
+    <Content Include="images\goal\GoalP5.jpg" />
+    <Content Include="images\goal\GoalP6.jpg" />
+    <Content Include="images\goal\GoalP7.jpg" />
+    <Content Include="images\goal\GoalP8.jpg" />
+    <Content Include="images\goal\GoalP9.jpg" />
+    <Content Include="images\goal\modals\m-GoalO1.jpg" />
+    <Content Include="images\goal\modals\m-GoalO2.jpg" />
+    <Content Include="images\goal\modals\m-GoalO3.jpg" />
+    <Content Include="images\goal\modals\m-GoalO4.jpg" />
+    <Content Include="images\goal\modals\m-GoalO5.jpg" />
+    <Content Include="images\goal\modals\m-GoalO6.png" />
+    <Content Include="images\goal\modals\m-GoalO7.jpg" />
+    <Content Include="images\goal\modals\m-GoalO8.jpg" />
+    <Content Include="images\goal\modals\m-GoalP1.jpg" />
+    <Content Include="images\goal\modals\m-GoalP10.JPG" />
+    <Content Include="images\goal\modals\m-GoalP11.jpg" />
+    <Content Include="images\goal\modals\m-GoalP12.jpg" />
+    <Content Include="images\goal\modals\m-GoalP2.jpg" />
+    <Content Include="images\goal\modals\m-GoalP3.jpg" />
+    <Content Include="images\goal\modals\m-GoalP4.jpg" />
+    <Content Include="images\goal\modals\m-GoalP5.jpg" />
+    <Content Include="images\goal\modals\m-GoalP6.jpg" />
+    <Content Include="images\goal\modals\m-GoalP7.jpg" />
+    <Content Include="images\goal\modals\m-GoalP8.jpg" />
+    <Content Include="images\goal\modals\m-GoalP9.jpg" />
+    <Content Include="images\goal\[Originals]\GoalO1.jpg" />
+    <Content Include="images\goal\[Originals]\GoalO2.jpg" />
+    <Content Include="images\goal\[Originals]\GoalO3.jpg" />
+    <Content Include="images\goal\[Originals]\GoalO4.jpg" />
+    <Content Include="images\goal\[Originals]\GoalO5.jpg" />
+    <Content Include="images\goal\[Originals]\GoalO6.png" />
+    <Content Include="images\goal\[Originals]\GoalO7.jpg" />
+    <Content Include="images\goal\[Originals]\GoalO8.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP1.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP10.JPG" />
+    <Content Include="images\goal\[Originals]\GoalP11.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP12.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP2.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP3.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP4.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP5.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP6.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP7.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP8.jpg" />
+    <Content Include="images\goal\[Originals]\GoalP9.jpg" />
+    <Content Include="images\header-background.jpg" />
+    <Content Include="images\hobby\Hobby1.jpg" />
+    <Content Include="images\hobby\Hobby2.jpg" />
+    <Content Include="images\hobby\Hobby3.jpg" />
+    <Content Include="images\hobby\Hobby4.jpg" />
+    <Content Include="images\hobby\Hobby5.jpg" />
+    <Content Include="images\hobby\Hobby6.jpg" />
+    <Content Include="images\hobby\Hobby7.jpg" />
+    <Content Include="images\hobby\Hobby8.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby1.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby2.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby3.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby4.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby5.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby6.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby7.jpg" />
+    <Content Include="images\hobby\modals\m-Hobby8.jpg" />
+    <Content Include="images\loader.gif" />
+    <Content Include="images\overlay-bg.png" />
+    <Content Include="images\overlay-zoom.png" />
+    <Content Include="images\portfolio\modals\m-Portfolio1.gif" />
+    <Content Include="images\portfolio\modals\m-Portfolio2.gif" />
+    <Content Include="images\portfolio\modals\m-Portfolio3.gif" />
+    <Content Include="images\portfolio\modals\m-Portfolio4.gif" />
+    <Content Include="images\portfolio\modals\m-Portfolio5.gif" />
+    <Content Include="images\portfolio\modals\m-Portfolio6.gif" />
+    <Content Include="images\portfolio\modals\m-Portfolio7.gif" />
+    <Content Include="images\portfolio\modals\m-Portfolio8.gif" />
+    <Content Include="images\portfolio\Portfolio1.gif" />
+    <Content Include="images\portfolio\Portfolio2.gif" />
+    <Content Include="images\portfolio\Portfolio3.gif" />
+    <Content Include="images\portfolio\Portfolio4.gif" />
+    <Content Include="images\portfolio\Portfolio5.gif" />
+    <Content Include="images\portfolio\Portfolio6.gif" />
+    <Content Include="images\portfolio\Portfolio7.gif" />
+    <Content Include="images\portfolio\Portfolio8.gif" />
+    <Content Include="images\profilepic.jpg" />
+    <Content Include="images\sample-image.jpg" />
+    <Content Include="images\testimonials-bg.jpg" />
+    <Content Include="images\TwoWaysOfLife.jpg" />
+    <Content Include="images\Uk001_1.png" />
+    <Content Include="js\init.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery-migrate-1.2.1.min.js" />
+    <Content Include="js\jquery.fittext.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\magnific-popup.js" />
+    <Content Include="js\modernizr.js" />
+    <Content Include="js\waypoints.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="css\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="css\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="css\font-awesome\less\bordered-pulled.less" />
+    <Content Include="css\font-awesome\less\core.less" />
+    <Content Include="css\font-awesome\less\fixed-width.less" />
+    <Content Include="css\font-awesome\less\font-awesome.less" />
+    <Content Include="css\font-awesome\less\icons.less" />
+    <Content Include="css\font-awesome\less\larger.less" />
+    <Content Include="css\font-awesome\less\list.less" />
+    <Content Include="css\font-awesome\less\mixins.less" />
+    <Content Include="css\font-awesome\less\path.less" />
+    <Content Include="css\font-awesome\less\rotated-flipped.less" />
+    <Content Include="css\font-awesome\less\spinning.less" />
+    <Content Include="css\font-awesome\less\stacked.less" />
+    <Content Include="css\font-awesome\less\variables.less" />
+    <Content Include="css\font-awesome\scss\font-awesome.scss" />
+    <Content Include="css\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="css\font-awesome\scss\_core.scss" />
+    <Content Include="css\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="css\font-awesome\scss\_icons.scss" />
+    <Content Include="css\font-awesome\scss\_larger.scss" />
+    <Content Include="css\font-awesome\scss\_list.scss" />
+    <Content Include="css\font-awesome\scss\_mixins.scss" />
+    <Content Include="css\font-awesome\scss\_path.scss" />
+    <Content Include="css\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="css\font-awesome\scss\_spinning.scss" />
+    <Content Include="css\font-awesome\scss\_stacked.scss" />
+    <Content Include="css\font-awesome\scss\_variables.scss" />
+    <Content Include="css\fontello\font\fontello.eot" />
+    <Content Include="css\fontello\font\fontello.ttf" />
+    <Content Include="css\fontello\font\fontello.woff" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-bold-webfont.eot" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-bold-webfont.ttf" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-bold-webfont.woff" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-italic-webfont.eot" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-italic-webfont.ttf" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-italic-webfont.woff" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-regular-webfont.eot" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-regular-webfont.ttf" />
+    <Content Include="css\fonts\librebaskerville\librebaskerville-regular-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-Bold-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-Bold-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-Bold-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-BoldItalic-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-BoldItalic-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-BoldItalic-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBold-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBold-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBold-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBoldItalic-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBoldItalic-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-ExtraBoldItalic-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-Italic-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-Italic-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-Italic-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-Light-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-Light-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-Light-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-LightItalic-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-LightItalic-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-LightItalic-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-Regular-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-Regular-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-Regular-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-Semibold-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-Semibold-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-Semibold-webfont.woff" />
+    <Content Include="css\fonts\opensans\OpenSans-SemiboldItalic-webfont.eot" />
+    <Content Include="css\fonts\opensans\OpenSans-SemiboldItalic-webfont.ttf" />
+    <Content Include="css\fonts\opensans\OpenSans-SemiboldItalic-webfont.woff" />
+    <Content Include="libman.json" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_LocalResources\Default.aspx.en.resx" />
+    <Content Include="App_LocalResources\Default.aspx.resx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58298</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44331/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

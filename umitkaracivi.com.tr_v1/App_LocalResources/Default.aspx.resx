@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btonSendMailResource1.Text" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="btonSendMailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkAboutMeResource1.Text" xml:space="preserve">
+    <value>Hakkımda</value>
+  </data>
+  <data name="hlnkAboutMeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkCareerResource1.Text" xml:space="preserve">
+    <value>Kariyer</value>
+  </data>
+  <data name="hlnkCareerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkContactResource1.Text" xml:space="preserve">
+    <value>Erişim</value>
+  </data>
+  <data name="hlnkContactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkEducationResource1.Text" xml:space="preserve">
+    <value>Eğitim</value>
+  </data>
+  <data name="hlnkEducationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkGoalResource1.Text" xml:space="preserve">
+    <value>Hedefler</value>
+  </data>
+  <data name="hlnkGoalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkHobbyResource1.Text" xml:space="preserve">
+    <value>Hobiler</value>
+  </data>
+  <data name="hlnkHobbyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkHomeResource1.Text" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="hlnkHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkPortfolioResource1.Text" xml:space="preserve">
+    <value>İşler</value>
+  </data>
+  <data name="hlnkPortfolioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlnkSkillResource1.Text" xml:space="preserve">
+    <value>Uzmanlıklar</value>
+  </data>
+  <data name="hlnkSkillResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbelCVDownloadTextResource1.Text" xml:space="preserve">
+    <value>CV'mi indir</value>
+  </data>
+  <data name="lbelCVDownloadTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="litrAboutMeDetailResource1.Text" xml:space="preserve">
+    <value>
+1965 yılında İstanbul'da doğdum. 1987 yılında İstanbul Teknik Üniversitesi Kontrol ve Bilgisayar Mühendisliği bölümünden "Bilgisayar Mühendisi" olarak mezun oldum. Askerlik hizmetimi bekleme sürecinde, Soyak Holding Göztepe Soyak siteleri şantiyesinde uzman olarak çalışma hayatına başladım. Askerlik hizmetimi özel Bilgi İşlem kurasıyla yerleştirildiğim Deniz Kuvvetleri Gölcük Bilgi İşlem Komutanlığı'da Bilgi İşlem subayı olarak tamamladım. Askerlik hizmeti sonrası, hayatımın büyük bir kısmını geçireceğim Bursa'da yaşamayı seçtim. 2013 yılında tekrardan İstanbul'a döndüm. Evliyim. 2000 doğumlu dünya ve insanlık güzeli bir kızım var. İlgi alanlarım arasında Volvo XC-70, BMW GS ailesi, doğa sporları, özellikle new age ve world fusion müzik dinlemek, kayak, fotoğraf çekmek, çiçekler, böcekler, bilimum işe yaramaz(!) şeyler vardır..</value>
+  </data>
+  <data name="litrAboutMeHeaderResource1.Text" xml:space="preserve">
+    <value>
+HAKKIMDA                   </value>
+  </data>
+  <data name="litrContactDetailResource1.Text" xml:space="preserve">
+    <value>
+&lt;span&gt;Ümit KARAÇİVİ&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;0 - 552 - 334 6114&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;umit.karacivi@outlook.com&lt;/span&gt;
+                            </value>
+  </data>
+  <data name="litrContactHeaderResource1.Text" xml:space="preserve">
+    <value>
+                                İletişim Detayları
+                            </value>
+  </data>
+  <data name="litrEducationHeaderResource1.Text" xml:space="preserve">
+    <value>
+                        EĞİTİM
+                    </value>
+  </data>
+  <data name="litrID01DetailResource1.Text" xml:space="preserve">
+    <value>
+                                CoderDojo çocuklara ve gençlere kodlamanın nasıl birşey olduğunu 
+                                çeşitli yollarla öğreten gönüllü bir sosyal harekettir. Ben de bu sosyal harekete 
+                                çok memnunlukla katkıda bulunmaya, çocuklara ve gençlere birşeyler kazandırmaya, 
+                                düşünüş yöntemlerini geliştirmeye çalışıyorum. Daha detaylı bilgiye
+                                &lt;a href="http://www.coderdojoturkiye.com/" target="_blank"&gt;CoderDojo Türkiye&lt;/a&gt; adresinden 
+                                veya &lt;a href="https://www.facebook.com/coderdojoturkiye"&gt;Facebook sayfasından&lt;/a&gt; ulaşabilirsiniz ...
+                            </value>
+  </data>
+  <data name="litrID01HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                CoderDojo Türkiye Mentorluk Programı - İSTANBUL
+                            </value>
+  </data>
+  <data name="litrID02DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Program dahilinde İTÜ Mezunlar Derneği tarafından tarafıma atanan 2 adet aynı bölüm öğrencisine yönderlik çalışması...
+                            </value>
+  </data>
+  <data name="litrID02HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                İTÜ MDK 2016-2017 Mentorluk Programı - İSTANBUL
+                            </value>
+  </data>
+  <data name="litrID03DetailResource1.Text" xml:space="preserve">
+    <value>
+                                İhtiyaçlar doğrultusunda irili ufaklı çalışmalar, mesleki teknik çeviri çalışmaları, girişimcilik çalışmaları. 
+                                Bu çalışmalar günümüzde de aynı hızla devam etmektedir...
+                            </value>
+  </data>
+  <data name="litrID03HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                Freelance Çalışmalar - İSTANBUL
+                            </value>
+  </data>
+  <data name="litrID04DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Firma iç bünyesinde kullanılan bazı sistemler için düzenleme çalışmaları...
+                            </value>
+  </data>
+  <data name="litrID04HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                DB Schenker Arkas Nakliyat ve Tic. A.Ş. - İSTANBUL
+                            </value>
+  </data>
+  <data name="litrID05DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Şirketin vermiş olduğu ITIL (Information Technologies Infrastructure Library) 
+                                eğitimlerinde kullanılan dokümantasyonlarının hazırlanmasında destek çalışmaları...                        
+                            </value>
+  </data>
+  <data name="litrID05HeaderResource1.Text" xml:space="preserve">
+    <value>
+Process Park Eğitim ve Danışmanlık Hizmetleri - İSTANBUL</value>
+  </data>
+  <data name="litrID06DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Şirket iç veri tabanından gerekli verileri, bayi sistemine aktaran ve Windows Server 2008 üzerinde görev yapan servis uygulamasının geliştirilmesi &lt;br /&gt;
+                                Bayilerden gelen Microsoft Excel ile hazırlanmış sipariş bilgilerinin sisteme aktarılmasını sağlayan web uygulamasının geliştirilmesi
+                            </value>
+  </data>
+  <data name="litrID06HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                MAYSAN-MANDO Otomotiv Parçaları San. Tic. A.Ş. - BURSA
+                            </value>
+  </data>
+  <data name="litrID07DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Bilgi işlem sistemlerinin kurulması, organizasyonu, iyileştirme çalışmaları,&lt;br /&gt;
+                                Yazılım envanter çalışmaları,&lt;br /&gt;
+                                Firmaya uygun yazılım çözümünün kurulum ve destek çalışmaları,&lt;br /&gt;
+                                Şirket web sitesinin geliştirilmesi,&lt;br /&gt;
+                                Eğitim ve destek çalışmaları,&lt;br /&gt;
+                                Firma tedarikçileri ile koordinasyon çalışmaları
+                            </value>
+  </data>
+  <data name="litrID07HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                REAL Hizm. / ORION Holding Yön. Tem. ve Tic. A.Ş. - BURSA
+                            </value>
+  </data>
+  <data name="litrID08DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Pazarlama Grubu için Pazarlama Analizi Raporlama Sistemi (MARS) intranet uygulamasının geliştirilmesi,&lt;br /&gt;
+                                Üretim Maliyet Grubu için Masraf Merkezleri Maliyet Analiz Raporlama Sistemi (CERS) intranet uygulamasının geliştirilmesi,&lt;br /&gt;
+                                Şirket bünyesindeki toplantı odaları organizasyonu için Toplantı Odaları Rezervasyon Sistemi (TORES) intranet uygulamasının geliştirilmesi,&lt;br /&gt;
+                                Şirket bünyesinde kullanılmakta olan SAP/R3 uygulamasına destek olması açısından çeşitli intranet planlama çözümlerinin geliştirilmesi
+                            </value>
+  </data>
+  <data name="litrID08HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                Borçelik Çelik Sanayii Ticaret A.Ş. - BURSA
+                            </value>
+  </data>
+  <data name="litrID09DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Otomotiv yan sanayinde hizmet veren firma bünyesinde kullanılmak üzere, ambar sistemleri destek çalışmaları...
+                            </value>
+  </data>
+  <data name="litrID09HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                Orhan Holding Faurecia - BURSA
+                            </value>
+  </data>
+  <data name="litrID10DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Geliştirilme aşamasında, Belsis.Net e-kent bilgi sistemi yazılımında geliştirme ve destek çalışmaları...
+                            </value>
+  </data>
+  <data name="litrID10HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                Belsis Ltd.Şti. - BURSA
+                            </value>
+  </data>
+  <data name="litrID11DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Firma bünyesinde kullanılmak üzere, Satın Alma Analiz (SAAN) yazılımının geliştirilmesi ve destek çalışmaları...
+                            </value>
+  </data>
+  <data name="litrID11HeaderResource1.Text" xml:space="preserve">
+    <value>
+                                Saydam Tekstil San. ve Tic. Ltd. Şti. - BURSA
+                            </value>
+  </data>
+  <data name="litrID12DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Oyak-Renault yan sanayisi olan firma bünyesinde kullanılmak üzere, 
+                                firmaya özel üretim planlama sisteminin geliştirme ve destek çalışmaları (Yapılan uygulama KOSGEB ve TEYDEB desteği almıştır)
+                            </value>
+  </data>
+  <data name="litrID12HomeResource1.Text" xml:space="preserve">
+    <value>
+                                Sadık Otomotiv - İSTANBUL
+                            </value>
+  </data>
+  <data name="litrID13DetailResource1.Text" xml:space="preserve">
+    <value>
+                                IBM S36 / AS400 sistemleri üzerinde COBOL ile yazılım geliştirme çalışmaları,&lt;br /&gt;
+                                Mikro-bilgisayar ortamına geçiş projesinin gerçekleştirilmesi, ihtiyaçların belirlenmesi ve gerekli materyallerin sağlanması, kullanıcı eğitimlerinin planlanması ve koordinasyonu, sistemin yürütülmesi çalışmaları&lt;br /&gt;
+                                Tüm firma genelinde Lotus Notes geçiş projesinin gerçekleştirilmesi,&lt;br /&gt;
+                                Ana sistem-mikro sistemler arası bağlaşım çalışmaları gerçekleştirilmesi,&lt;br /&gt;
+                                Teknik destek ve yazılım destek ekiplerinin yönetimi
+                            </value>
+  </data>
+  <data name="litrID13HomeResource1.Text" xml:space="preserve">
+    <value>
+                                OYAK RENAULT Otomobil Fabrikaları A.Ş. - BURSA
+                            </value>
+  </data>
+  <data name="litrID14DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Koç Burroughs sistemleri üzerinde görevler dahilinde çeşitli uygulama geliştirme çalışmaları
+                            </value>
+  </data>
+  <data name="litrID14HomeResource1.Text" xml:space="preserve">
+    <value>
+                                Deniz K.K. Gölcük Bilgi İşlem Merkezi Komutanlığı (GOBİM) - Gölcük / KOCAELİ
+                            </value>
+  </data>
+  <data name="litrID15DetailResource1.Text" xml:space="preserve">
+    <value>
+                                Şantiye bilgi sistemleri üzerinde çeşitli uygulama geliştirme çalışmaları.
+                            </value>
+  </data>
+  <data name="litrID15HomeResource1.Text" xml:space="preserve">
+    <value>
+                                SOYAK Holding - İSTANBUL
+                            </value>
+  </data>
+  <data name="litrLyceeClassInfoResource1.Text" xml:space="preserve">
+    <value>
+                                Ortaokul ve lise dönemimi bu okulda geçirdim. Özellikle lise döneminde en başarılı olduğum ders matematikti. Annesi ve babası
+                                yılların matematik öğretmeni olan biri için nasıl olmasın ki.... Ayrıca bu durumumun üniversiteye girişimde oldukça etkili olduğunu da
+                                söyleyebilirim.
+                            </value>
+  </data>
+  <data name="litrLyceeClassResource1.Text" xml:space="preserve">
+    <value>
+                            Fen Bölümü
+                        </value>
+  </data>
+  <data name="litrLyceeResource1.Text" xml:space="preserve">
+    <value>
+                                Kadıköy Mehmet Bayazıd Lisesi - İstanbul
+                            </value>
+  </data>
+  <data name="litrMailContactHeaderResource1.Text" xml:space="preserve">
+    <value>
+                        &lt;span&gt;Temasta olun...&lt;/span&gt;
+                    </value>
+  </data>
+  <data name="litrMailContactInfoResource1.Text" xml:space="preserve">
+    <value>
+                        Aşağıdaki formu doldurarak bana ulaşabilirsiniz....
+                    </value>
+  </data>
+  <data name="litrMainInfoResource1.Text" xml:space="preserve">
+    <value>
+                        Ben Ümit KARAÇİVİ ...
+                    </value>
+  </data>
+  <data name="litrMottoResource1.Text" xml:space="preserve">
+    <value>
+                                &lt;span class="textbold"&gt;&lt;b&gt;Robert Lee Frost şöyle der ve ben de çok beğenirim ;&lt;/b&gt;&lt;/span&gt;
+                                &lt;br /&gt;
+                                &lt;span class="textnormal"&gt;"Ormanda karşıma iki yol çıktı. Bir tanesinde çok ayak izi vardı. Diğerinde ise daha az. Ben en az kullanılmış olanını seçtim."&lt;/span&gt;
+                            </value>
+  </data>
+  <data name="litrPortfolio01_CloseResource1.Text" xml:space="preserve">
+    <value>
+                        &lt;a class="popup-modal-dismiss"&gt;Kapat ...&lt;/a&gt;
+                    </value>
+  </data>
+  <data name="litrPortfolio01_DetailResource1.Text" xml:space="preserve">
+    <value>
+                        &lt;h4&gt;IBM S36/AS400 - PC Parkı Organizasyonu&lt;/h4&gt;
+                        &lt;p&gt;
+                            IBM S36/AS400 sistemleri üzerinde çeşitli programlama çalışmaları gerçekleştirilmiştir. 
+                            Ayrıca Oyak-Renault bünyesindeki bir proje kapsamında firmanın PC ortamına geçmesi ve gerekli tüm 
+                            organizasyonun gerçekleştirimesi çalışmalarını yaptım.
+                        &lt;/p&gt;
+                    </value>
+  </data>
+  <data name="litrPortfolio01Resource1.Text" xml:space="preserve">
+    <value>
+                                            &lt;h5&gt;IBM S36/AS400 - PC Parkı Organizasyonu&lt;/h5&gt;
+                                            &lt;p&gt;Programlama - Organizasyon&lt;/p&gt;
+                                        </value>
+  </data>
+  <data name="litrPortfolioHeaderResource1.Text" xml:space="preserve">
+    <value>
+                        Aşağıda yaptığım ve yapmakta olduğum bazı çalışmaları göreceksiniz ...
+                    </value>
+  </data>
+  <data name="litrShortInfoResource1.Text" xml:space="preserve">
+    <value>
+                        İstanbul'da yaşayan bir &lt;span&gt;bilgisayar mühendisi&lt;/span&gt; ve &lt;span&gt;yazılımcı&lt;/span&gt;yım. &lt;a class="smoothscroll" href="#about"&gt;Hakkımda&lt;/a&gt; 
+                        bölümünden benimle ilgili daha fazla bilgiye ulaşabilirsiniz.
+                    </value>
+  </data>
+  <data name="litrSkillHeaderResource1.Text" xml:space="preserve">
+    <value>
+                        &lt;span&gt;Uzmanlıklar&lt;/span&gt;
+                    </value>
+  </data>
+  <data name="litrSkillInfoResource1.Text" xml:space="preserve">
+    <value>
+                        Bunca yıllık iş ve özel hayatımda birçok konu ile haşır-neşir oldum. Ve bir de baktım ki yazılım geliştirme ile uğraşırken
+                        bunun dışındaki bir çok konuyla da çok farkında olmadan ilgilenmişim. Uzman olmasam bile ne nasıl yapılır, nerden yapılır, 
+                        bunu yapmak için nereye bakmak lazım gibi birçok konuda fikir sahibi olmuşum....
+                    </value>
+  </data>
+  <data name="litrUniClassInfoResource1.Text" xml:space="preserve">
+    <value>
+                                Bilgisayar dünyasının Türkiye'de çok çok fazla tanınmadığı bir zamanda (1982 yılı), üniversiteye girdim. Hatta girdiğim bölüm 
+                                3. senesinde olduğundan dolayı oldukça yeniydi. Bu meslek nedir, ne değildir pek fazla bilemiyordum. Ama zaman içersinde 
+                                yavaş yavaş anlamaya başladım. Dolayısı ile 1987 yılında mezun olduğumda Türkiye'deki sayısı oldukça az olan bir grubun içindeydim.
+                            </value>
+  </data>
+  <data name="litrUniClassResource1.Text" xml:space="preserve">
+    <value>
+                            Kontrol ve Bilgisayar Mühendisliği
+                        </value>
+  </data>
+  <data name="litrUniResource1.Text" xml:space="preserve">
+    <value>
+                                İstanbul Teknik Üniversitesi - İstanbul
+                            </value>
+  </data>
+  <data name="litrWorkHeaderResource1.Text" xml:space="preserve">
+    <value>
+                        İŞ DENEYİMİ
+                    </value>
+  </data>
+  <data name="lnkbENResource1.Text" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="lnkbENResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkbTRResource1.Text" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="lnkbTRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MessageSuccessResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MessageSuccessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MessageWarningResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MessageWarningResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>.: Ümit KARAÇİVİ - Kişisel İnternet Sayfası :.</value>
+  </data>
+</root>
